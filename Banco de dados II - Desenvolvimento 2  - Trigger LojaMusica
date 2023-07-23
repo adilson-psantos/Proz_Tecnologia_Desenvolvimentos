@@ -1,0 +1,30 @@
+create database lojaMusica;
+
+use lojaMusica;
+
+create table instrumentos (
+    id INT PRIMARY KEY,
+    nome VARCHAR(100),
+    preco DECIMAL(10, 2),
+    estoque INT
+);
+
+insert into instrumentos (id, nome, preco, estoque) values (1, 'Violão', 299.90, 20);
+insert into instrumentos (id, nome, preco, estoque) values (2, 'Guitarra', 779.90, 15);
+insert into instrumentos (id, nome, preco, estoque) values (3, 'Contrabaixo', 915.50, 28);
+
+create table Vendas (
+    id INT PRIMARY KEY,
+    instrumento_id INT,
+    quantidade INT,
+    data_venda DATE
+);
+
+DELIMITER $$
+create trigger atualizar_estoque
+after insert on Vendas
+for each row
+begin
+    update Produtos set estoque = estoque - new.quantidade where id = new.produto_id;
+end $$
+DELIMITER ;
