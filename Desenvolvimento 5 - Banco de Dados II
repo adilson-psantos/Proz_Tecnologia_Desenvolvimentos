@@ -1,0 +1,33 @@
+Adilson Pereira dos Santos
+
+Turma:8
+
+Atividade: Desenvolvimento 5 Banco de Dados II
+
+
+
+1 - Após uma varredura rápida no sistema de banco de dados de uma empresa de vendas, identificamos a necessidade de melhorar a segurança dessas informações. Por isso, será necessário desenvolver um novo banco para armazenar os dados mais importantes, como detalhes dos clientes, valores faturados diariamente e informações sobre os produtos, além de outros. Sendo assim, explique quais são os pilares da segurança de dados que devem ser seguidos para que o novo banco seja bem projetado e funcione corretamente
+
+2 - Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo. 
+
+Ao desenvolver um novo banco de dados para armazenar informações importantes de uma empresa de vendas, é essencial seguir os pilares fundamentais da segurança de dados para garantir que as informações estejam protegidas contra acessos não autorizados, perdas acidentais e outros incidentes de segurança. Os principais pilares da segurança de dados incluem:
+
+1. Confidencialidade: O pilar da confidencialidade visa garantir que apenas as pessoas autorizadas tenham acesso às informações sensíveis armazenadas no banco de dados. Isso envolve a implementação de sistemas de autenticação robustos, como senhas fortes, autenticação multifator (MFA) e controle de acesso baseado em papéis (RBAC), para garantir que apenas usuários autorizados possam acessar os dados.
+
+2. Integridade: A integridade dos dados é fundamental para garantir que as informações armazenadas no banco de dados permaneçam precisas e não sejam alteradas de forma não autorizada. Para isso, é necessário implementar mecanismos de controle de alterações e assinaturas digitais para verificar a autenticidade dos dados.
+
+3. Disponibilidade: A disponibilidade dos dados é crucial para que os usuários autorizados possam acessar as informações quando necessário. É importante implementar redundância e backup adequado dos dados para evitar perdas acidentais, bem como ter medidas de prevenção contra ataques de negação de serviço (DoS) que possam comprometer a disponibilidade do banco de dados.
+
+4. Autenticidade: A autenticidade dos dados refere-se à garantia de que os dados armazenados são genuínos e provenientes de fontes confiáveis. Para assegurar isso, pode-se utilizar criptografia para proteger os dados em trânsito e em repouso, garantindo que eles não sejam adulterados durante o armazenamento ou transferência.
+
+5. Não Repúdio: O não repúdio visa garantir que as ações realizadas no banco de dados por usuários autorizados sejam rastreáveis e não possam ser negadas posteriormente. Isso é alcançado por meio do registro adequado de atividades e auditorias para monitorar as ações dos usuários no banco de dados.
+
+6. Privacidade: A privacidade dos dados é especialmente importante quando se trata de informações de clientes. É necessário garantir que as informações pessoais sejam devidamente protegidas e que sejam cumpridas todas as leis e regulamentações aplicáveis à privacidade dos dados, como o GDPR (Regulamento Geral de Proteção de Dados).
+
+7. Segregação de funções: Implementar a segregação de funções é essencial para evitar conflitos de interesse e minimizar riscos. Isso significa que diferentes responsabilidades devem ser atribuídas a diferentes usuários, reduzindo a probabilidade de fraude ou acesso não autorizado.
+
+8. Monitoramento e detecção de intrusões: É importante ter sistemas de monitoramento contínuo e detecção de intrusões para identificar atividades suspeitas ou tentativas de acesso não autorizado ao banco de dados. Isso ajuda a detectar rapidamente possíveis violações de segurança e tomar medidas corretivas adequadas.
+
+Ao seguir esses pilares da segurança de dados, o novo banco de dados poderá ser bem projetado e funcionar corretamente, garantindo a proteção adequada das informações cruciais da empresa de vendas. Além disso, é importante manter-se atualizado com as melhores práticas de segurança e realizar revisões regulares para garantir que as medidas de segurança sejam eficazes em um cenário em constante evolução de ameaças de segurança.
+
+
