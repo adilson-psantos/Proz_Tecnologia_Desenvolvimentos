@@ -1,0 +1,35 @@
+Adilson Pereira dos Santos
+
+Turma:8
+
+Atividade Desenvolvimento 4
+
+
+1 - Uma loja tem um banco de dados que contém todo o controle de vendas de produtos e de cadastro de clientes. Pensando nisso, crie uma função para somar todos os clientes que foram cadastrados na loja durante um dia.
+
+2 Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo. 
+
+
+CREATE OR REPLACE FUNCTION somar_clientes_cadastrados_por_dia(data_desejada DATE)
+RETURNS INTEGER AS $$
+DECLARE
+    total_clientes INTEGER;
+BEGIN
+    -- Executa a consulta para obter o total de clientes cadastrados na data desejada
+    SELECT COUNT(*) INTO total_clientes
+    FROM clientes
+    WHERE data_cadastro = data_desejada;
+
+    RETURN total_clientes;
+END;
+$$
+LANGUAGE plpgsql;
+
+
+A função somar_clientes_cadastrados_por_dia recebe um parâmetro data_desejada, que representa a data para a qual queremos obter o total de clientes cadastrados. A função utiliza uma variável total_clientes para armazenar o resultado da consulta que conta os registros na tabela "clientes" com a data correspondente.
+
+Para chamar a função e obter o resultado, você pode usar a seguinte sintaxe:
+
+SELECT somar_clientes_cadastrados_por_dia('2023-07-24');
+
+Nesse exemplo, estamos chamando a função com a data "2023-07-24" para obter o total de clientes cadastrados nessa data. O resultado será um único valor inteiro representando a quantidade de clientes cadastrados.
