@@ -1,0 +1,22 @@
+Adilson Pereira dos santos
+Atividade: Desenvolvimento 6
+Materia: Banco de Dados II
+Turma:8
+
+1 - No ano de 2022, diversas empresas sofreram tentativas de ataques cibernéticos que poderiam impactar diretamente a segurança dos dados. Portanto, é recomendado que funcionários e clientes de lojas virtuais sempre mantenham suas senhas de acesso atualizadas, alterando-as a cada três meses. Pensando nisso, cite pelo menos três métodos para melhorar essas senhas, com foco em fortalecê-las.
+
+2 - Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo.
+
+
+Resposta:
+
+
+Fortalecer senhas é uma medida essencial para aumentar a segurança dos dados em lojas virtuais e evitar possíveis ataques cibernéticos. Aqui estão três métodos para melhorar as senhas:
+
+1. **Comprimento e Complexidade:** Quanto maior e mais complexa for a senha, mais difícil será para um atacante tentar quebrá-la por meio de força bruta ou técnicas de dicionário. Recomenda-se que as senhas tenham pelo menos 12 caracteres e incluam uma combinação de letras maiúsculas e minúsculas, números e caracteres especiais. Evite usar informações óbvias, como datas de aniversário, nomes de familiares ou sequências numéricas.
+
+2. **Uso de Frases-Passe:** Em vez de criar senhas curtas e complexas, considere o uso de frases-passe (passphrases), que são sequências mais longas de palavras com significado para você, mas que não sejam facilmente adivinhadas por outros. Por exemplo, uma frase-passe poderia ser "CaféComBolachasAzuis!". Essa abordagem torna as senhas mais fáceis de lembrar e mais difíceis de serem quebradas por ataques de força bruta.
+
+3. **Autenticação de Dois Fatores (2FA):** O uso de autenticação de dois fatores adiciona uma camada extra de segurança à conta. Além da senha, o usuário precisará fornecer uma segunda forma de autenticação, como um código enviado para o celular ou gerado por um aplicativo de autenticação. Isso reduz significativamente o risco de acesso não autorizado, mesmo que a senha seja comprometida.
+
+Além dessas medidas, é importante conscientizar os funcionários e clientes sobre a importância de proteger suas senhas e evitar práticas inseguras, como o compartilhamento de senhas entre contas ou o uso de senhas simples e facilmente deduzíveis. Manter um programa de conscientização sobre segurança cibernética pode ser útil para educar as pessoas sobre os riscos e as melhores práticas de segurança.
